@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-sudo bundle exec jekyll serve
+sudo jekyll serve
