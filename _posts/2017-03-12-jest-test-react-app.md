@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Jest를 사용해 React App을 테스트
+title: Jest를 사용한 React App 테스트
 category: react
 tags: [ 'jest', 'react' ]
 ---
@@ -67,7 +67,7 @@ it('sums numbers', () => {
 
 그리고 jest.fn()함수와 expect(fn).toBeCalled()란 함수를 사용할 수도 있는데 이는 mock함수나 spies 를 생성할 떄 사용된다.
 
-### 컴포넌트 테스트
+### 컴포넌트 테스팅
 
 컴포넌트가 완전히 렌더링 되는지, 얕은 수준의 rendering인지 화인하고, 컴포넌트 렌더, 상태 변화 등을 테스팅하는 여러 수준의 테스팅 기술들이 있다.  
 
@@ -109,7 +109,7 @@ it('renders without crashing', () => {
 
 좀더 여러 테스팅 기술을 위해서 Enzyme documentation을 살펴보자. Enzyme는 assertion을 위해 Chai와 Sinon을 사용하지만 Jest 에서 expect()와 jest.fn()을 내장하고 있기 때문에 꼭 사용할 필요는 없다.  
 
-아래는 Jest matcher를 사용해서 특정 출력을 aasert하는 Enzyme의 예제이다.
+아래는 Jest matcher를 사용해서 특정 출력을 assert하는 enzyme의 예제이다.
 
 ``` python
 import React from 'react';
@@ -137,6 +137,8 @@ expect(wrapper).toContainReact(welcome)
 ```
 npm install --save-dev jest-enzyme
 ```
+
+그리고 모든 테스트에서 matcher들을 사용하게 하려면 [src/setUpTests.js](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#initializing-test-environment)에 다음과 같이 import 시켜주면 된다.
 
 ``` python
 import 'jest-enzyme';
