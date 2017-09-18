@@ -14,6 +14,18 @@ comments: false
 선린 인터넷 고등학교 - 웹운영과(2009 ~ 2012, 졸업)  
 단국 대학교 - 소프트웨어학과 (2012 ~ 현재, 재학)
 <hr>
+
+## Skills
+
+### Advanced
+C, C++, cocos2d-x
+
+### Intermediate
+git, Java, javascript, react.js, python, django, Android, selenium
+
+### Beginner
+php, HTML, CSS, MySQL, JSP
+
 ## Cooperation Ability
 
 ### Agile(Scrum + Kanban)
@@ -92,7 +104,7 @@ comments: false
 
 ### ZombieHunter, *GoodGame* [2013.09 ~ 2014.05]
 
-> [https://github.com/wkdtjsgur100/ZombieHunter](https://github.com/wkdtjsgur100/ZombieHunter)
+> [https://github.com/wkdtjsgur100/ZombieHunter](https://github.com/wkdtjsgur100/ZombieHunter)  
 > [https://bitbucket.org/Jangsunhyuk/newzombiehunter/src](https://bitbucket.org/Jangsunhyuk/newzombiehunter/src) (Advanced)
 
 #### Overview
