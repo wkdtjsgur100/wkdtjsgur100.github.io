@@ -26,6 +26,7 @@ git, Java, javascript, react.js, python, django, Android, selenium
 ### Beginner
 php, HTML, CSS, MySQL, JSP
 
+<hr>
 ## Cooperation Ability
 
 ### Agile(Scrum + Kanban)
