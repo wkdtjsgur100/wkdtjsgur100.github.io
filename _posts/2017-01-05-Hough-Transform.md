@@ -1,8 +1,8 @@
 ---
 layout: post
 section-type: post
-title: 허프 변환(Hough Transform)
-category: tech
+title: 허프 변환(Hough Transform)의 개념 및 구현 + 내 생각
+category: image-processing
 tags: [ 'image-processing', 'C/C++', '영상처리' ]
 ---
 
