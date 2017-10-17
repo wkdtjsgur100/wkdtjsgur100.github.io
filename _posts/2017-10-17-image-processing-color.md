@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: 디지털 영상처리 요약 - 삼자극치(tristimulus value)와 CIE 다이어그램
+title: (디지털 영상처리)삼자극치(tristimulus value)와 CIE 다이어그램
 category: image-processing
 tags: [ 'image-processing' ]
 ---
