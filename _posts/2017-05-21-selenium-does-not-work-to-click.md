@@ -19,6 +19,7 @@ browser.find_element_by_xpath("//form[@class='ui form']/button").click()
 해당 버튼 element을 click()이나 submit() 함수를 이용해 클릭하는 것이 아닌, send_keys(Keys.ENTER)를 이용해 해당 버튼 element를 클릭하니 해결되었다.  
 
 ``` python
+from selenium.webdriver.common.keys import Keys
 # 다음과 같이 해결
 browser.find_element_by_xpath("//form[@class='ui form']/button").send_keys(Keys.ENTER)
 ```
