@@ -10,7 +10,7 @@ selenium을 이용해서 functional test를 쨔는 도중, 특정 element를 클
 
 ``` python
 # 다음과 같이 시도해 보았다.
-browser.find_element_by_xpath("//form[@class='ui form']/button").click()
+driver.find_element_by_xpath("//form[@class='ui form']/button").click()
 ```
 
 아무리 해도 클릭이 되지 않는 것이었다.  
@@ -21,5 +21,12 @@ browser.find_element_by_xpath("//form[@class='ui form']/button").click()
 ``` python
 from selenium.webdriver.common.keys import Keys
 # 다음과 같이 해결
-browser.find_element_by_xpath("//form[@class='ui form']/button").send_keys(Keys.ENTER)
+driver.find_element_by_xpath("//form[@class='ui form']/button").send_keys(Keys.ENTER)
+```
+
+만약 그래도 안된다면, 다음과 같은 명령문을 써보자.
+
+``` python
+element = driver.find_element_by_xpath("//form[@class='ui form']/button")
+driver.execute_script("arguments[0].click();", element)
 ```
