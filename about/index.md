@@ -42,12 +42,12 @@ php, HTML, CSS, MySQL, JSP
         - 매 Sprint 종료 시 고객 피드백을 통한 제품 관리
 
 ### Git
-- [git flow를 사용한 브랜치 관리](https://wkdtjsgur100.github.io/blog/2017/01/17/git-flow/)
+- [git flow를 사용한 브랜치 관리](https://wkdtjsgur100.github.io/git-flow/)
 - pull requests를 사용해 기능 완성 시 코드 리뷰
 
 ### Others
 
-- 잠재고객 interview skill, 아이디어 회의 방법, 마케팅 전략, UX설계, 상황 대처 능력, 사업화 전략 등 스타트업과 관련된 지식들을 배움. ( 참고 링크: [2017.02 멘토링 일지](https://wkdtjsgur100.github.io/blog/2017/02/16/mentoring-log/) )
+- 잠재고객 interview skill, 아이디어 회의 방법, 마케팅 전략, UX설계, 상황 대처 능력, 사업화 전략 등 스타트업과 관련된 지식들을 배움. ( 참고 링크: [2017.02 멘토링 일지](https://wkdtjsgur100.github.io/mentoring-log/) )
 - 고등학교 1학년부터 꾸준한 프로젝트 경험을 통해 프로그래머, 디자이너와의 커뮤니케이션이 원활함.
 - 프로젝트를 한번 시작하면 어떻게든 끝을 보려고 하는 성격
 
@@ -125,7 +125,7 @@ Game Application based cocos2d-x(https://github.com/cocos2d/cocos2d-x/)
 <hr>
 ### MirrorMirror, *GoodGame* [2013.08 ~ 2013.09]
 
-> [https://play.google.com/store/apps/details?id=goodgame.mirrormirror](https://play.google.com/store/apps/details?id=goodgame.mirrormirror)
+> [https://play.google.com/store/apps/details?id=goodgame.mirrormirror](https://play.google.com/store/apps/details?id=goodgame.mirrormirror)  
 > [https://github.com/wkdtjsgur100/MirrorMirror](https://github.com/wkdtjsgur100/MirrorMirror)
 
 ### Overview
