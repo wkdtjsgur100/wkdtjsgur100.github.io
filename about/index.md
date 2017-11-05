@@ -116,7 +116,7 @@ Game Application based cocos2d-x(https://github.com/cocos2d/cocos2d-x/)
 - UI/Effect/Tutorial/Ranking 시스템 개발
     - STL을 이용해 적절한 자료구조를 적용했고 스마트 포인터를 통해 효율적인 메모리 관리
 - 클래스 구조 설계
-    - gof의 디자인 패턴을 활용해 설계. 패턴에 정형화 된 구조보다는 디자인 원칙([SOLID 원칙](https://wkdtjsgur100.github.io/blog/2017/06/09/solid-principle/))과 캡슐화에 신경쓰며 제작
+    - gof의 디자인 패턴을 활용해 설계. 패턴에 정형화 된 구조보다는 디자인 원칙([SOLID 원칙](https://wkdtjsgur100.github.io/solid-principle/))과 캡슐화에 신경쓰며 제작
 - 게임 내 지형 제작 툴 제작
     - rapidJson이라는 외부 C++ 라이브러리을 사용해 json 통신.
 - 리소스 관리 툴 Texture Packer를 사용해 리소스를 효율적으로 제작
@@ -147,7 +147,7 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
 색종이 색깔 및 꼭지점 추적 알고리즘 개발(C++, openCV 미사용)
 
 ### Role
-- [Hough Transform](https://wkdtjsgur100.github.io/blog/2017/01/05/Hough-Transform/) 구현 및 응용
+- [Hough Transform](https://wkdtjsgur100.github.io/Hough-Transform/) 구현 및 응용
 - Canny, Prewitt Edge Detecting 구현
 - 이진화 영상 threshold automation detecting 구현
 - 색상 인식 알고리즘 구현
