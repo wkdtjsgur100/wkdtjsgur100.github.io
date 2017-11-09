@@ -11,8 +11,6 @@ tags: [ 'image-processing', 'C/C++', '영상처리' ]
 
 이 글은 전반적인 이해를 원하는 사람 보다는 __허프변환을 실제로 구현하려는 사람 혹은 허프변환의 기초에 대해 완전한 이해를 하고 싶은 사람__ 을 위한 글이다.   
 
-원본 링크 : http://blog.naver.com/wkdtjsgur100
-
 ------------
 
 허프변환의 기본 아이디어는 이렇다.
@@ -23,13 +21,13 @@ tags: [ 'image-processing', 'C/C++', '영상처리' ]
 
 __즉, 한 점이 가질 수 있는 모든 직선을  b와 m에 대한 평면에서 하나의 직선으로 표현할 수 있다.__
 
-![hough_transform](http://postfiles5.naver.net/20130701_244/wkdtjsgur100_1372685848852Ea25f_JPEG/1.jpg?type=w1)
+![hough_transform](/images/posts/hough_1.jpg)
 
 그렇다면 생각해보자 두 점을 m,b에 대한 식으로 바꿨을때는 m,b평면에서 직선이 두개 나오게 된다.  
 
 그렇다면 그 두 직선의 교점은 무엇을 의미할까? __바로 두 점을 지나는 직선을 의미__ 하게 된다.
 
-![cross](http://postfiles6.naver.net/20130701_85/wkdtjsgur100_1372686701948JS7Aq_JPEG/2.jpg?type=w1)
+![cross](/images/posts/hough_2.jpg)
 
 왜냐고? m,b평면에서 나타낸 직선은 한 점이 가질 수 있는 모든 직선을 의미하고 m1,b1 에서 만난 점
 
@@ -86,11 +84,11 @@ m,b를 누적하고 사용한다는 의미는 뭘까. 우리가 평면에 직선
 
 r = x*cost + y*sint
 
-![허프 공간](https://www.harrisgeospatial.com/docs/html/images/hough02.gif)
+![허프 공간](/images/posts/hough_3.jpg)
 
 위 그림에서 theta가 t이다.
 
-![hough_space](http://postfiles6.naver.net/20130729_261/wkdtjsgur100_1375026732365CSlC0_JPEG/3.jpg?type=w1)
+![hough_space](/images/posts/hough_4.jpg)
 
 오른쪽에 있는 t와 r에 대한 평면이 Hough Space이다. 위에서 설명한 m,b평면과 개념이 __완전히 똑같다.__ 단지 다른점은 __공간이 '무한'한 상태에서 '유한'한 상태로 바뀌었다__ 는 것뿐.
 
