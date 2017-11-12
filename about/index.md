@@ -168,7 +168,8 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
 - 교육관련 스타트업(교집합) 앱, 웹 개발 *[2016.03 ~ 2016.04]*
 - IT 연합 동아리(디프만, 디자이너와 프로그래머가 만났을 때) *[2016.03 ~ 현재]*
     - missonpriceless 웹 개발, 디프만 *[2016.05 ~ 2016.06]*
-        - https://github.com/wkdtjsgur100/InteractiveCollector
+        - https://wkdtjsgur100.github.io/missionpriceless/ 
+        - https://github.com/wkdtjsgur100/missionpriceless
         - vis.js, webgl, liquid.js 등 자바스크립트 외부 라이브러리를 이용해 다양하고 시각적인 웹페이지를 보여주는 웹 포트폴리오 사이트
     - 스피노자 게임 개발, 디프만 *[2016.11~2016.12]*
         - https://play.google.com/store/apps/details?id=com.game.factory
