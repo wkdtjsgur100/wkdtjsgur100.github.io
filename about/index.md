@@ -156,6 +156,7 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
 <hr>
 
 # Other Activities
+- 보험관련 사이트 스크래핑 server api 개발(외주) *[2017.11.~2017.12]*
 - **오픈소스 게임엔진 cocos2d-x contributor [2016.03]**
     - [https://github.com/cocos2d/cocos2d-x/pull/15279](https://github.com/cocos2d/cocos2d-x/pull/15279) (PR)
     - [https://github.com/cocos2d/cocos2d-x/issues/15270](https://github.com/cocos2d/cocos2d-x/issues/15270) (issue)
@@ -168,7 +169,7 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
 - 교육관련 스타트업(교집합) 앱, 웹 개발 *[2016.03 ~ 2016.04]*
 - IT 연합 동아리(디프만, 디자이너와 프로그래머가 만났을 때) *[2016.03 ~ 현재]*
     - missonpriceless 웹 개발, 디프만 *[2016.05 ~ 2016.06]*
-        - https://wkdtjsgur100.github.io/missionpriceless/ 
+        - https://wkdtjsgur100.github.io/missionpriceless/
         - https://github.com/wkdtjsgur100/missionpriceless
         - vis.js, webgl, liquid.js 등 자바스크립트 외부 라이브러리를 이용해 다양하고 시각적인 웹페이지를 보여주는 웹 포트폴리오 사이트
     - 스피노자 게임 개발, 디프만 *[2016.11~2016.12]*
