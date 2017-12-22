@@ -59,7 +59,9 @@ nohup Xvfb :99 &
 
 # remote webdriver 사용하기
 
-아래와 같은 코드를 사용해서, remote webdriver를 사용해 크롤링할 수 있습니다.
+아래와 같은 코드를 사용해서, remote webdriver를 사용해 크롤링할 수 있습니다.  
+
+firefox와 geckodriver가 설치되어 있지 않다면, 설치해줍시다.
 
 ``` python
 from selenium import webdriver
