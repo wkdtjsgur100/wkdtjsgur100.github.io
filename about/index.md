@@ -64,7 +64,9 @@ php, HTML, CSS, MySQL, JSP
 > [https://github.com/linkuniversity/LinkU](https://github.com/linkuniversity/LinkU)
 
 #### Overview
-- "대학생 연결 모임 서비스" 라는 주제로 대학생들이 부담없이 만나서 맛있는 식사를 함께 하고 이야기 할 수 있는 장을 만드는 것을 목표로 하고있습니다. 대학생들은 여러 모임 유형인 '동아리', '대외활동' 등의 활동을 하고 있지만 꾸준한 참석, 장기적인 것이라는 부담감이 있습니다. 이와 동시에 혼밥족은 점점 늘어나고 있는 추세이고 이를 해결하기 위해 단기적인 대학생 식사 모임을 주선하는 서비스를 만들었습니다.
+"대학생 연결 모임 서비스" 라는 주제로 대학생들이 부담없이 만나서 맛있는 식사를 함께 하고 이야기 할 수 있는 장을 만드는 것을 목표로 하고있습니다. 대학생들은 여러 모임 유형인 '동아리', '대외활동' 등의 활동을 하고 있지만 꾸준한 참석, 장기적인 것이라는 부담감이 있습니다. 이와 동시에 혼밥족은 점점 늘어나고 있는 추세이고 이를 해결하기 위해 단기적인 대학생 식사 모임을 주선하는 서비스를 만들었습니다.
+
+> Created a networking site for college students to meet and share delicious meals under the theme of "College Student Connection Meeting Service" with 4 other developers and designers.
 
 #### Role
 
@@ -76,6 +78,8 @@ php, HTML, CSS, MySQL, JSP
     - code coverage 사용
     - circleCI를 사용해 Continuous Integration
 - git flow을 사용해 팀원들과 협업
+
+
 
 <hr>
 ### Open Search Insight, *SoftWare Maestro(http://swmaestro.kr)* [2016.09 ~ 2016.12]
@@ -91,6 +95,8 @@ php, HTML, CSS, MySQL, JSP
 이를 통해 마케팅에 어려움을 겪고 있는 스타트업 또는 광고 에이전시의 마케터들이 보다
 쉽게 고객을 이해하고 더 나은 페이스북 광고 효율 및 마케팅 효과를 얻을 수 있을 것으로 기대됩니다.  
 실제 사업화 가능성 검증을 위해 티저 페이지를 오픈한 결과 수십명의 베타 사용자들을 모집할 수 있었습니다.
+
+> Collected customer data by crawling publicly available user profile information via SNS (using phone numbers) for large pools of users provided by marketers. Analyzed the data to extract customer demographic distribution and lists of interests shared across the whole pool of customers.
 
 #### Role
 - 트위터, 페이스북 API 기반 데이터 수집과 사전 학습
@@ -111,6 +117,8 @@ php, HTML, CSS, MySQL, JSP
 #### Overview
 Game Application based cocos2d-x(https://github.com/cocos2d/cocos2d-x/)  
 세계적인 오픈소스 게임엔진(cocos2d-x) 분석을 통해 가독성과 확장성이 높은 게임을 제작.
+
+> Developed a side scrolling game that allows the player to move the hero character using arrow keys, change the weaponry of the hero character and fight/kill zombies.
 
 #### Role
 - UI/Effect/Tutorial/Ranking 시스템 개발
