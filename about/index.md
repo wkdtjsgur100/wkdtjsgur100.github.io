@@ -183,7 +183,7 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
     - 스피노자 게임 개발, 디프만 *[2016.11~2016.12]*
         - https://play.google.com/store/apps/details?id=com.game.factory
 - create-react-app(44,100 star) contributor
- - [오타 수정 PR](https://github.com/facebook/create-react-app/pull/3468)
+    - [오타 수정 PR](https://github.com/facebook/create-react-app/pull/3468)
 
 <hr>
 
