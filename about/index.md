@@ -165,7 +165,7 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
 
 # Other Activities
 - 보험관련 사이트 스크래핑 server api 개발(외주) *[2017.11.~2017.12]*
-- **오픈소스 게임엔진 cocos2d-x contributor [2016.03]**
+- **오픈소스 게임엔진 cocos2d-x (11,000 star) contributor [2016.03]**
     - [https://github.com/cocos2d/cocos2d-x/pull/15279](https://github.com/cocos2d/cocos2d-x/pull/15279) (PR)
     - [https://github.com/cocos2d/cocos2d-x/issues/15270](https://github.com/cocos2d/cocos2d-x/issues/15270) (issue)
 - 기술 블로그 운영(https://wkdtjsgur100.github.io)
@@ -182,6 +182,8 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
         - vis.js, webgl, liquid.js 등 자바스크립트 외부 라이브러리를 이용해 다양하고 시각적인 웹페이지를 보여주는 웹 포트폴리오 사이트
     - 스피노자 게임 개발, 디프만 *[2016.11~2016.12]*
         - https://play.google.com/store/apps/details?id=com.game.factory
+- create-react-app(44,100 star) contributor
+ - [오타 수정 PR](https://github.com/facebook/create-react-app/pull/3468)
 
 <hr>
 
