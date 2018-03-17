@@ -4,6 +4,7 @@ section-type: post
 title: selenium에서 임의의 ip로 크롤링하기 (python, Ubuntu, Firefox)
 category: selenium
 tags: [ 'selenium' ]
+comments: true
 ---
 
 > selenium으로 크롤링을 하다보면 ip를 막아버리는 사이트도 있습니다. 이를 피하기 위해 [Tor](https://ko.wikipedia.org/wiki/%ED%86%A0%EC%96%B4)를 이용해, selenium에서 임의의 ip로 크롤링하는 방법에 대해서 작성했습니다.(Ubuntu, Firefox)

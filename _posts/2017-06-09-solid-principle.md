@@ -4,6 +4,7 @@ section-type: post
 title: 객체지향 디자인의 5원칙(SOLID 원칙)
 category: 디자인패턴
 tags: [ '디자인패턴' ]
+comments: true
 ---
 
 > 좋은 객체지향 설계를 위해서는 다음의 5가지 원칙을 따르는 것이 좋고, 다음의 원칙들을 기반으로 디자인 패턴이 되기 때문에,

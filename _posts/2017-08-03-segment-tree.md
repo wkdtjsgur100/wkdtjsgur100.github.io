@@ -4,6 +4,7 @@ section-type: post
 title: 세그먼트 트리(Segment Tree) 요약 정리 (C++)
 category: algorithm
 tags: [ 'algorithm' ]
+comments: true
 ---
 
 ## 세그먼트 트리(Segment Tree)란?
