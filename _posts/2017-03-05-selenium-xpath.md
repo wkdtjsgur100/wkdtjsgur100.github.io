@@ -4,6 +4,7 @@ section-type: post
 title: (python) selenium에서 xpath를 이용해 크롤링 하기
 category: python
 tags: [ 'python', 'selenium' ]
+comments: true
 ---
 
 > selenium으로 특정 element를 가져올 때, 가져오고 싶은 element가 다른 element 안에 있을 경우에 그 특정 element를 쉽게 가져올 수 있는 방법 중 하나인 xpath를 사용해 element를 가져오는 방법에 대해서 작성하였다.
