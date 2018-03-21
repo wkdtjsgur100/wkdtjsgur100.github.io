@@ -80,32 +80,6 @@ php, HTML, CSS, MySQL, JSP
 - git flow을 사용해 팀원들과 협업
 
 
-
-<hr>
-### Open Search Insight, *SoftWare Maestro(http://swmaestro.kr)* [2016.09 ~ 2016.12]
-
-> [https://bitbucket.org/Jangsunhyuk/smtm_crawler/src](https://bitbucket.org/Jangsunhyuk/smtm_crawler/src)
-
-#### Overview
-
-[크롤링 영상 URL](https://www.youtube.com/watch?v=NNAVqGQi1N4)
-
-마케터들이 가지고 있는 고객 정보 데이터(전화번호)를 기반으로 사용자 공개 데이터(SNS 등)를 크롤링 해서 고객의 데이터를 수집한 다음, 이를 분석해 고객 정보 데이터들의 높은 인구통계학 분포 비율과 공통 관심사 분석을 추출해낸다음 마케터들에게 결과를 제공합니다.  
-
-이를 통해 마케팅에 어려움을 겪고 있는 스타트업 또는 광고 에이전시의 마케터들이 보다
-쉽게 고객을 이해하고 더 나은 페이스북 광고 효율 및 마케팅 효과를 얻을 수 있을 것으로 기대됩니다.  
-실제 사업화 가능성 검증을 위해 티저 페이지를 오픈한 결과 수십명의 베타 사용자들을 모집할 수 있었습니다.
-
-> Collected customer data by crawling publicly available user profile information via SNS (using phone numbers) for large pools of users provided by marketers. Analyzed the data to extract customer demographic distribution and lists of interests shared across the whole pool of customers.
-
-#### Role
-- 트위터, 페이스북 API 기반 데이터 수집과 사전 학습
-- Selenuim 활용 페이스북 데이터 수집
-- 형태소 분석과 관련 전처리
-- TextRank 알고리즘 구현
-- 페이스북 Marketing API 활용
-- 도달 범위 추출 사용자 분석 API 서버 구현
-
 <hr>
 ## Game
 
