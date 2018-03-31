@@ -81,3 +81,7 @@ tags: [ 'os' ]
     * 작업 실행에서 시간 제약 조건은 있으나 이를 지키지 못해도 시스템에 치명적인 영향을 끼치지 않는 시스템이다.(동영상 재생 시스템 등)
 6. 분산 처리 시스템(distributed processing system)
  - 시스템 마다 독립적인 운영체제와 메모리로 운영하며, 필요할 때 통신하는 시스템이다.
+
+<br />
+
+ [운영체제(Operating System) 핵심 개념 정리 (2) 보러가기](https://wkdtjsgur100.github.io/os-summary-2)
