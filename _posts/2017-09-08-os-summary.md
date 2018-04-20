@@ -84,4 +84,10 @@ tags: [ 'os' ]
 
 <br />
 
- [운영체제(Operating System) 핵심 개념 정리 (2) 보러가기](https://wkdtjsgur100.github.io/os-summary-2)
+# 운영체제 관련 다른 글들
+
+[운영체제(Operating System) 핵심 개념 정리 (2)](https://wkdtjsgur100.github.io/os-summary-2)
+[운영체제(Operating System) 핵심 개념 정리 (3) - process](https://wkdtjsgur100.github.io/os-summary-process)
+[운영체제(Operating System) 핵심 개념 정리 (4) - scheduling(Overview)](https://wkdtjsgur100.github.io/scheduling-1)
+
+
