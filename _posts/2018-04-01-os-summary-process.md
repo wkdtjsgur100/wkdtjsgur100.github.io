@@ -146,7 +146,11 @@ context switch(문맥 교환) 은 선점 되었을 때 프로세스의 마지막
 - Context restore: CPU register들에 PCB를 로딩하는 것을 말합니다.
 - switching하는 동안은 유용한 일을 못하는 overhead가 발생합니다.
 
+# 운영체제 관련 다른 글들
 
+- [운영체제(Operating System) 핵심 개념 정리 (1)](https://wkdtjsgur100.github.io/os-summary)
+- [운영체제(Operating System) 핵심 개념 정리 (2)](https://wkdtjsgur100.github.io/os-summary-2)
+- [운영체제(Operating System) 핵심 개념 정리 (4) - scheduling(Overview)](https://wkdtjsgur100.github.io/scheduling-1)
 	
 
 

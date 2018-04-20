@@ -96,5 +96,9 @@ CPU1 | B B D D B B D D B B D D . . .
 
 cache affinity에 효율적이고 lock contention은 적지만 위의 예에서 A와 C 프로세스가 먼저 끝이 났을 경우에 CPU0이 놀고 있을 경우가 발생합니다. 이를 방지하기 위해 다시 재 분배해 주는 `load balancing(migration 이라고도 함)`이라는 기법이 사용됩니다.
 
+# 운영체제 관련 다른 글들
 
+- [운영체제(Operating System) 핵심 개념 정리 (1)](https://wkdtjsgur100.github.io/os-summary)
+- [운영체제(Operating System) 핵심 개념 정리 (2)](https://wkdtjsgur100.github.io/os-summary-2)
+- [운영체제(Operating System) 핵심 개념 정리 (4) - scheduling(Overview)](https://wkdtjsgur100.github.io/os-summary-process)
 
