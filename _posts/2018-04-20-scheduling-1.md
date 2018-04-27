@@ -42,6 +42,8 @@ workload를 측정하는 기준을 말한다.
 
 ready queue에는 프로세스 상태 중에서 ready 상태에 있는 프로세스들, 즉 **메모리에 load 되어있는 프로세스들이 쌓여 있습니다.**
 
+> 프로세스의 상태에 대해서 잘 모른다면 [이 링크](https://wkdtjsgur100.github.io/os-summary-process)를 참고하자.
+
 # Scheduling의 종류
 
 - FIFO(First In, First Out): 먼저 들어온 프로세스를 먼저 스케줄. 비선점형 스케줄링
