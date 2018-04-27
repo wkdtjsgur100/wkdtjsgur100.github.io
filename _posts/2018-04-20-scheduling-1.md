@@ -38,6 +38,10 @@ workload를 측정하는 기준을 말한다.
 
 프로세스가 한번 스케줄 되면 그 프로세스가 끝날때까지 다른 프로세스가 끼어들 수 없는 스케줄링 방식입니다.
 
+# Ready Queue
+
+ready queue에는 프로세스 상태 중에서 ready 상태에 있는 프로세스들, 즉 **메모리에 load 되어있는 프로세스들이 쌓여 있습니다.**
+
 # Scheduling의 종류
 
 - FIFO(First In, First Out): 먼저 들어온 프로세스를 먼저 스케줄. 비선점형 스케줄링
@@ -51,14 +55,14 @@ workload를 측정하는 기준을 말한다.
 # Multiprocessor에서의 Scheduling
 
 - Multiprocessor: 말그대로 프로세서가 여러개가 있는 것. physically한 프로세서.
-- Multi Core: 프로세서 내부에 코어가 여러개가 있을 수 있음. 
-- Hyper Thread: 코어 내부에 하드웨어적으로 스레드를 두개 이상 지원할 수 있는데 이를 하이퍼 스레드, CPU가 두개로 뻥튀기 되어 보이게 됨. 
+- Multi Core: 프로세서 내부에 코어가 여러개가 있을 수 있음.
+- Hyper Thread: 코어 내부에 하드웨어적으로 스레드를 두개 이상 지원할 수 있는데 이를 하이퍼 스레드, CPU가 두개로 뻥튀기 되어 보이게 됨.
 - CPU cache(L1,L2,LLC)
     - Temporal locality(시간 지역성): 어떤 데이터에 접근했을 때, 이는 곧 나중에 다시 접근될 것이다.(stack, for 반복문 같이..)
     - Spatial locality(공간 지역성): array나 sequential execution 같이 데이터가 한번 접근되면 줍ㄴ에 있는 데이터도 접근될 것이다.
     - 장점: main memory보다 접근이 빨라서 금방 다시 접근할 수 있는 cache hit의 효과가 있다.
     - Multiprocessor 구조에선 더 복잡한데, cache 사이에서의 일관성을 유지하기가 어렵다. 그래서 Bus snooping을 사용해 주소 버스를 모니터링하고 캐시 상의 메모리 접근을 체크해 일관성을 유지한다.
-    
+
 ## Cache affinity Scheduling
 
 프로세스를 실행 할 때, 이전에 실행했던 프로세스를 동일한 CPU에서 실행하는 것이 더 낫다(cache hit때문에). 이를 활용한 스케줄링 방식.
@@ -101,4 +105,3 @@ cache affinity에 효율적이고 lock contention은 적지만 위의 예에서 
 - [운영체제(Operating System) 핵심 개념 정리 (1)](https://wkdtjsgur100.github.io/os-summary)
 - [운영체제(Operating System) 핵심 개념 정리 (2)](https://wkdtjsgur100.github.io/os-summary-2)
 - [운영체제(Operating System) 핵심 개념 정리 (4) - scheduling(Overview)](https://wkdtjsgur100.github.io/os-summary-process)
-
