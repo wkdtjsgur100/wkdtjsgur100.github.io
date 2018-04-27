@@ -46,3 +46,9 @@ FIFO와 같은 상황에서 SJF에서는 다음과 같이 스케줄링 됩니다
 
 - ATT: ( 2 + 5 + 11 ) / 3 = 6
 - ART: ( 0 + 2 + 5 ) / 3 = 7/3
+
+# 운영체제 관련 다른 글들
+
+- [운영체제(Operating System) 핵심 개념 정리 (1)](https://wkdtjsgur100.github.io/os-summary)
+- [운영체제(Operating System) 핵심 개념 정리 (2)](https://wkdtjsgur100.github.io/os-summary-2)
+- [운영체제(Operating System) 핵심 개념 정리 (4) - scheduling(Overview)](https://wkdtjsgur100.github.io/os-summary-process)

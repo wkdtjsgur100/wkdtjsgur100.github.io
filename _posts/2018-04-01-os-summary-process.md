@@ -100,7 +100,7 @@ CPU의 시간을 작게 분할해 여러 작업을 돌아가면서 수행하는 
 
 ### Direct Execution
 
-운영체제를 거치지 않고 직접 수행, 효율적이지만 **컨트롤 할 수 없다. 즉, 프로세스는 무한히 돌 것이고, 자원을 독점해 버릴 것입니다.** 
+운영체제를 거치지 않고 직접 수행, 효율적이지만 **컨트롤 할 수 없다. 즉, 프로세스는 무한히 돌 것이고, 자원을 독점해 버릴 것입니다.**
 
 > 이와 반대되는 개념으로, indirect execution이 있습니다. 효율은 떨어지지만 모든 작업을 할때 운영체제를 거쳐서 실행하는 것입니다.
 
@@ -116,7 +116,7 @@ CPU의 시간을 작게 분할해 여러 작업을 돌아가면서 수행하는 
 
 ### Direct Execution Solution
 
-Direct Execution의 단점을 해결할 두 가지 해결방안이 있다. 
+Direct Execution의 단점을 해결할 두 가지 해결방안이 있다.
 1. 자원과 관련된 요청이 오면 OS가 개입한다.(system call을 통해)
 2. 유저모드와 커널모드를 구분한다. 모드를 변경할 때 `trap` 명령을 사용한다.
 
@@ -124,7 +124,7 @@ Direct Execution의 단점을 해결할 두 가지 해결방안이 있다.
 
 trap은 `trap table(a.k.a. IDT, Interrupt Descriptor table)`을 사용해서 발생시킵니다.  
 `trap table`은 `trap handler`들로 구성이 됩니다. `trap handler`엔 system call handler, div_dy_zero handler, segment fault handler 등이 있습니다. 부팅 시간에 초기화 됩니다.  
-  
+
 예를 들어, system call의 처리 절차는 다음과 같습니다.
 1. 프로그램(유저 모드)에서 system call trap을 호출합니다.
 2. 하드웨어 단에서 kernel stack에 register 값들을 저장하고, 커널 모드로 이동하고, trap handler로 점프합니다.
@@ -151,13 +151,4 @@ context switch(문맥 교환) 은 선점 되었을 때 프로세스의 마지막
 - [운영체제(Operating System) 핵심 개념 정리 (1)](https://wkdtjsgur100.github.io/os-summary)
 - [운영체제(Operating System) 핵심 개념 정리 (2)](https://wkdtjsgur100.github.io/os-summary-2)
 - [운영체제(Operating System) 핵심 개념 정리 (4) - scheduling(Overview)](https://wkdtjsgur100.github.io/scheduling-1)
-	
-
-
-
-
-
-
-
-
-
+- [스케줄링 - FIFO, SJF 개념](https://wkdtjsgur100.github.io/scheduling-2)

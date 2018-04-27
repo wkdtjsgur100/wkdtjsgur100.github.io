@@ -107,3 +107,4 @@ cache affinity에 효율적이고 lock contention은 적지만 위의 예에서 
 - [운영체제(Operating System) 핵심 개념 정리 (1)](https://wkdtjsgur100.github.io/os-summary)
 - [운영체제(Operating System) 핵심 개념 정리 (2)](https://wkdtjsgur100.github.io/os-summary-2)
 - [운영체제(Operating System) 핵심 개념 정리 (4) - scheduling(Overview)](https://wkdtjsgur100.github.io/os-summary-process)
+- [스케줄링 - FIFO, SJF 개념](https://wkdtjsgur100.github.io/scheduling-2)
