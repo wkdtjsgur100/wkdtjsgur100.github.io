@@ -109,6 +109,14 @@ print('Encrypted Message:', ''.join(map(lambda x: str(x), encrypted_msg)))
 print('Decrypted Message:', decrypt((d,n),encrypted_msg))
 ```
 
+위 소스에서 gcd 구현부는 유클리드 호제법에 의해 구현된 것입니다. 유클리드 호제법이란 아래와 같고, 증명은 되어있습니다.
+
+```
+A, B의 GCD를 구하고 싶다.
+A>B라고 했을 때, A%B == r 이라 하자.(즉, A = B*q + r, q는 A/B)
+gcd(A,B) == gcd(B, r)
+```
+
 위의 소스를 실행한 결과는 다음과 같습니다.
 
 ``` shell
