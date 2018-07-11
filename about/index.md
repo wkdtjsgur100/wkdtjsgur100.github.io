@@ -162,7 +162,8 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
 <hr>
 
 # Other Activities
-- 보험관련 사이트 스크래핑 server api 개발(외주) *[2017.11.~2017.12]*
+- ebay Korea Internship *[2018.07 ~ 2018.08]*
+- 보험관련 사이트 스크래핑 server api 개발(외주) *[2017.11 ~ 2017.12]*
 - **오픈소스 게임엔진 cocos2d-x (11,000 star) contributor [2016.03]**
     - [https://github.com/cocos2d/cocos2d-x/pull/15279](https://github.com/cocos2d/cocos2d-x/pull/15279) (PR)
     - [https://github.com/cocos2d/cocos2d-x/issues/15270](https://github.com/cocos2d/cocos2d-x/issues/15270) (issue)
