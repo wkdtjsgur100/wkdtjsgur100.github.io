@@ -163,7 +163,7 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
 
 # Open Source Activities
 
-- fingerprintjs2 contribute (Modern & flexible browser fingerprinting library) [2018.07]
+- fingerprintjs2 contribute (6,000 star, Modern & flexible browser fingerprinting library) [2018.07]
     - [https://github.com/Valve/fingerprintjs2/pull/346](https://github.com/Valve/fingerprintjs2/pull/346) (PR)
     
 - 오픈소스 게임엔진 cocos2d-x contribute (11,000 star) [2016.03]
