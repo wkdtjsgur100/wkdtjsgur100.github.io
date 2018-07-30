@@ -164,14 +164,15 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
 # Open Source Activities
 
 - fingerprintjs2 contribute (6,000 star, Modern & flexible browser fingerprinting library) [2018.07]
-    - [https://github.com/Valve/fingerprintjs2/pull/346](https://github.com/Valve/fingerprintjs2/pull/346) (PR)
+    - [PR #350](https://github.com/Valve/fingerprintjs2/pull/350)
+    - [PR #346](https://github.com/Valve/fingerprintjs2/pull/346)
     
 - 오픈소스 게임엔진 cocos2d-x contribute (11,000 star) [2016.03]
-    - [https://github.com/cocos2d/cocos2d-x/pull/15279](https://github.com/cocos2d/cocos2d-x/pull/15279) (PR)
-    - [https://github.com/cocos2d/cocos2d-x/issues/15270](https://github.com/cocos2d/cocos2d-x/issues/15270) (issue)
+    - [PR #15279](https://github.com/cocos2d/cocos2d-x/pull/15279)
+    - [Issue](https://github.com/cocos2d/cocos2d-x/issues/15270) (issue)
     
 - create-react-app contribute(44,100 star)
-    - [오타 수정 PR](https://github.com/facebook/create-react-app/pull/3468)
+    - [오타 수정 PR #3468](https://github.com/facebook/create-react-app/pull/3468)
     
 <hr>
 
