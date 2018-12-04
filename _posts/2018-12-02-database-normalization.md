@@ -13,7 +13,7 @@ comments: true
 
 정규화에 대한 설명에 앞서 데이터베이스와 관련된 용어를 알아야 할 필요가 있다.(이를 기반으로 설명하기 때문) 따라서 아래 그림을 보고 도메인, 속성, 릴레이션, 튜플 등에 대한 용어를 숙지하자.  
 
-![용어 정리](https://www.dropbox.com/s/7wuch5scloueeza/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2017.16.29.png)  
+![용어 정리](http://dl.dropbox.com/s/7wuch5scloueeza/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2017.16.29.png)  
 
 - Relation(= Table): 관계형 데이터베이스(RDBMS)에서 정보를 구분하여 저장하는 기본 단위를 말한다. 예로 부서에 관한 정보를 저장하는 부서 Relation(혹은 부서 Table)이 있다.
 - Domain(도메인): Relation에서 각각의 속성(Attribute)들이 취할 수 있는 같은 타입의 원자 값들의 집합.
@@ -37,7 +37,7 @@ comments: true
 - 대체 키(Surrogate key): **후보 키 중에 기본 키로 선택되지 않은 키.**
 
 아래는 이해를 돕기 위한 그림이다.
-![키 개념](https://www.dropbox.com/s/l51vuclpeqkdmwr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-04%2014.33.19.png)
+![키 개념](http://dl.dropbox.com/s/l51vuclpeqkdmwr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-04%2014.33.19.png)
 
 # 데이터베이스 정규화
 
@@ -70,20 +70,20 @@ comments: true
 
 예제를 통해 보자. 아래는 제 1정규형의 위 세가지 조건 중 첫번째 조건를 위반한 사례이다.  
 
-![1NF 위반 사례1](https://www.dropbox.com/s/9s8vowdzs3t66uw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2017.50.02.png)  
+![1NF 위반 사례1](http://dl.dropbox.com/s/9s8vowdzs3t66uw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2017.50.02.png)  
 
 위의 그림을 보면 전화번호가 여러개를 가지고 있기 때문에 이는 atomic하지 않게 되고, 이는 1 정규형을 위반한 것이 된다.
 
-![1NF 위반 사례2](https://www.dropbox.com/s/rk4jovticy5y3fw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2017.54.10.png)  
+![1NF 위반 사례2](http://dl.dropbox.com/s/rk4jovticy5y3fw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2017.54.10.png)  
 
 위의 그림은 전화번호 그룹이 반복되는 경우이다.(2번 조건를 위반한 사례)  
 따라서 이를 재디자인 할 필요가 있다. 아래는 제 1정규화를 만족시키기 위해 바꾼 디자인이다.  
 
-![1NF 재디자인1](https://www.dropbox.com/s/1rr8ofxuy46i61b/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2018.00.52.png)  
+![1NF 재디자인1](http://dl.dropbox.com/s/1rr8ofxuy46i61b/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2018.00.52.png)  
 
 위의 Relation은 ID가 더 이상 고유하게 식별할 수 있는 키가 아니란 것을 확인할 수 있다. 따라서, 3번 조건을 만족하기 위해 아래와 같이 테이블을 나누어 디자인 하는 것이 좋다.  
 
-![1NF 재디자인2](https://www.dropbox.com/s/dpuppv89n42ubre/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2022.55.29.png)  
+![1NF 재디자인2](http://dl.dropbox.com/s/dpuppv89n42ubre/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2022.55.29.png)  
 
 위의 디자인은 Customer Name과 Customer Telephone Number가 One-to-Many의 관계를 형성하는 것을 알 수 있다.
 
@@ -95,18 +95,18 @@ comments: true
 - 함수적 종속에서 X의 값이 여러 요소일 경우, 즉, {X1, X2} -> Y일 경우, X1와 X2가 Y의 값을 결정할 때 이를 **완전 함수적 종속** 이라고 하고, X1, X2 중 하나만 Y의 값을 결정할 때 이를 **부분 함수적 종속** 이라고 한다.  
 
 예시를 들어 살펴보자.  
-![2NF 위반 사례](https://www.dropbox.com/s/c2xfxdanbuiaw1l/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2006.58.17.png)  
+![2NF 위반 사례](http://dl.dropbox.com/s/c2xfxdanbuiaw1l/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2006.58.17.png)  
 
 위에서 Model과 Manufacturer를 알면 Model Full Name 필드를 아예 유지하지 않거나 참조하지 않아도 결정되기 때문에, {Model, Manufacturer} -> Model Full Name 이라고 할 수 있다. 
 하지만 {Model, Manufacturer} -> Manufacturer Country에서  Model과 Manufacturer Country는 아무런 연관 관계가 없기 때문에, Manufacturer Country는 Manufacturer와만 종속관계에 있게 되고 이를 부분 함수 종속이라고 하게 되는 것이다. 아래의 그림을 보면 쉽게 이해할 수 있다.
 
-![부분 함수 종속](https://www.dropbox.com/s/q4qcy99obhv6vnu/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2010.49.33.png)  
+![부분 함수 종속](http://dl.dropbox.com/s/q4qcy99obhv6vnu/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2010.49.33.png)  
 
 위에서 부분 함수 종속을 제거 하게 되면, 아래와 같은 그림이 된다.  
-![부분 함수 종속 제거 후](https://www.dropbox.com/s/v88uavl6zs5jsiz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2010.53.55.png)  
+![부분 함수 종속 제거 후](http://dl.dropbox.com/s/v88uavl6zs5jsiz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2010.53.55.png)  
 
 따라서, 부분 함수 종속을 제거한 이후의 테이블은 아래와 같고, 이는 제 2정규형을 만족한 테이블이다.  
-![부분 함수 종속 제거 후 테이블](https://www.dropbox.com/s/x8481598dhnpzeg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2010.58.15.png)
+![부분 함수 종속 제거 후 테이블](http://dl.dropbox.com/s/x8481598dhnpzeg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2010.58.15.png)
 
 ## 제 3정규화(Third Normal Form, 3NF)
 
@@ -115,17 +115,17 @@ comments: true
 2. 기본 키(primary key)가 아닌 속성(Attribute)들은 기본 키에만 의존해야 한다.
 
 아래는 두 번째 조건이 위반된 사례이다.  
-![3NF 위반 사례](https://www.dropbox.com/s/xtfoetv8hg6jn3f/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2012.59.46.png)  
+![3NF 위반 사례](http://dl.dropbox.com/s/xtfoetv8hg6jn3f/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2012.59.46.png)  
 
 위 테이블에서 {Tournament, Year}가 후보키가 된다. 하지만 Winner Date of Birth은 기본키가 아닌 속성인 Winner를 거쳐 {Tournament, Year}에 의존하고 있는 것을 알 수 있는데, 이는 3NF를 위반한 것이 된다. 따라서 테이블을 아래와 같이 둘로 나누어 주자.  
 
-![3NF 충족](https://www.dropbox.com/s/ks03nkc26nsffin/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-04%2014.51.39.png)  
+![3NF 충족](http://dl.dropbox.com/s/ks03nkc26nsffin/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-04%2014.51.39.png)  
 
 위 테이블은 3NF를 만족한 상태이다.
 
 # 출처
 
-- Wikipedia First Normal Form(https://en.wikipedia.org/wiki/First_normal_form)
-- Wikipedia Second Normal Form(https://en.wikipedia.org/wiki/Second_normal_form)
-- Wikipedia Third Normal Form(https://en.wikipedia.org/wiki/Third_normal_form)
+- Wikipedia First Normal Form(http://en.wikipedia.org/wiki/First_normal_form)
+- Wikipedia Second Normal Form(http://en.wikipedia.org/wiki/Second_normal_form)
+- Wikipedia Third Normal Form(http://en.wikipedia.org/wiki/Third_normal_form)
 - 용어정리(http://dev-ahn.tistory.com/66)
