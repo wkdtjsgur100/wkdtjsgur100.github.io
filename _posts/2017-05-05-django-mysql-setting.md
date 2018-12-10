@@ -112,7 +112,7 @@ sudo apt-get install mysql-server libmysqlclient-dev
 mysql DB에 접근 할 수 있는 user를 추가하기 위해서, mysql에 root 계정으로 들어갑니다
 
 ``` shell
-$ mysql -u root -p
+$ sudo mysql
 Enter password:
 ```
 
