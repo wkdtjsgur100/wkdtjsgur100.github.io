@@ -7,37 +7,11 @@ tags: [ 'database' ]
 comments: true
 ---
 
-> 해당 글에서는 용어 정리 및 1~3 정규화(1~3NF)에 대해서 작성되어 있습니다. 
+> 해당 글에서는 1~3 정규화(1~3NF)에 대해서 작성되어 있습니다. 
 
 # 용어 정리
 
-정규화에 대한 설명에 앞서 데이터베이스와 관련된 용어를 알아야 할 필요가 있다.(이를 기반으로 설명하기 때문) 따라서 아래 그림을 보고 도메인, 속성, 릴레이션, 튜플 등에 대한 용어를 숙지하자.  
-
-![용어 정리](http://dl.dropbox.com/s/7wuch5scloueeza/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-02%2017.16.29.png)  
-
-- Relation(= Table): 관계형 데이터베이스(RDBMS)에서 정보를 구분하여 저장하는 기본 단위를 말한다. 예로 부서에 관한 정보를 저장하는 부서 Relation(혹은 부서 Table)이 있다.
-- Domain(도메인): Relation에서 각각의 속성(Attribute)들이 취할 수 있는 같은 타입의 원자 값들의 집합.
-- Atomic Value(원자 값): 더 이상 분리될 수 없는 값.
-
-# 키(Key)
-
-한 Relation에서 각각의 tuple(행)을 유일하게 식별하기 위해 사용하는 하나 혹은 그 이상의 속성들의 집합.
-
-## 유일성과 최소성
-
-- 유일성: 하나의 키로 어떠한 행을 바로 찾아낼 수 있는 성질. ex) 주민등록번호
-- 최소성: 레코드를 식별하는데 꼭 필요한 속성들로만 구성되어 있는 성질. ex) {주민등록번호 + 학번}은 최소성을 만족시키지 않는다. 주민등록번호로만 tuple(행)을 구분할 수 있기 때문.
-
-## 키의 종류
-
-- 슈퍼 키(Super Key): **유일성을 만족하는 키.** 예를 들면, {학번 + 이름}, {주민등록번호 + 학번}
-- 복합 키(Composite Key): **2개 이상의 속성(attribute)를 사용한 키.**
-- 후보 키(Candidate key): **유일성과 최소성을 만족하는 키.** 기본키가 될 수 있는 후보이기 때문에 후보키라고 불린다. 예를 들면, 주민등록번호, 학번 등
-- 기본 키(Primary key): **후보 키에서 선택된 키.** NULL값이 들어갈 수 없으며, 기본키로 선택된 속성(Attribute)은 동일한 값이 들어갈 수가 없다.
-- 대체 키(Surrogate key): **후보 키 중에 기본 키로 선택되지 않은 키.**
-
-아래는 이해를 돕기 위한 그림이다.
-![키 개념](http://dl.dropbox.com/s/l51vuclpeqkdmwr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-04%2014.33.19.png)
+정규화에 대한 설명에 앞서 데이터베이스와 관련된 용어를 알아야 할 필요가 있다.(이를 기반으로 설명하기 때문) 따라서 용어에 대해서 잘 숙지하지 못한 사람은 [이 포스트](https://wkdtjsgur100.github.io/database-terms)를 먼저 참고하자.
 
 # 데이터베이스 정규화
 
@@ -129,4 +103,3 @@ comments: true
 - Wikipedia First Normal Form(http://en.wikipedia.org/wiki/First_normal_form)
 - Wikipedia Second Normal Form(http://en.wikipedia.org/wiki/Second_normal_form)
 - Wikipedia Third Normal Form(http://en.wikipedia.org/wiki/Third_normal_form)
-- 용어정리(http://dev-ahn.tistory.com/66)
