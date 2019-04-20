@@ -15,6 +15,28 @@ comments: false
 단국 대학교 - 소프트웨어학과 (2012 ~ 현재, 재학)
 <hr>
 
+## Experience
+
+- LINE Biz+ Internship [2019.04 ~ 2019.06]
+- ebaykorea Internship [2018.07 ~ 2018.09]
+- SW Maestro [2016.07 ~ 2017.07]
+
+## Open Source Contribution
+
+- fingerprintjs2(7,500 star, Modern & flexible browser fingerprinting library) [2018.07]
+    - [PR #357](https://github.com/Valve/fingerprintjs2/pull/357): fingerprint component를 customize 하기 위한 기능 추가
+    - [PR #350](https://github.com/Valve/fingerprintjs2/pull/350): enumerateDevice 관련 fingerprint component 기능 추가
+    - [PR #346](https://github.com/Valve/fingerprintjs2/pull/346): 테스트 코드 내 버그 수정
+    - [PR #344](https://github.com/Valve/fingerprintjs2/pull/344): 테스트 코드 내 버그 수정
+    
+- 오픈소스 게임엔진 cocos2d-x contribute (13,000 star) [2016.03]
+    - [PR #15279](https://github.com/cocos2d/cocos2d-x/pull/15279): 자체 자료구조 내 getRandomObject 함수의 rand() 함수를 uniform-distribution으로 변경.
+    
+- create-react-app contribute(66,400 star)
+    - [PR #3468](https://github.com/facebook/create-react-app/pull/3468): 오타 수정
+    
+<hr>
+
 ## Skills
 
 ### Advanced
@@ -161,26 +183,10 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
 
 <hr>
 
-# Open Source Activities
-
-- fingerprintjs2 contribute (6,000 star, Modern & flexible browser fingerprinting library) [2018.07]
-    - [PR #350](https://github.com/Valve/fingerprintjs2/pull/350)
-    - [PR #346](https://github.com/Valve/fingerprintjs2/pull/346)
-    
-- 오픈소스 게임엔진 cocos2d-x contribute (11,000 star) [2016.03]
-    - [PR #15279](https://github.com/cocos2d/cocos2d-x/pull/15279)
-    - [Issue](https://github.com/cocos2d/cocos2d-x/issues/15270) (issue)
-    
-- create-react-app contribute(44,100 star)
-    - [오타 수정 PR #3468](https://github.com/facebook/create-react-app/pull/3468)
-    
-<hr>
-
 # Other Activities
-- ebay Korea Internship *[2018.07 ~ 2018.08]*
 - 보험관련 사이트 스크래핑 server api 개발(외주) *[2017.11 ~ 2017.12]*
 - 기술 블로그 운영(https://wkdtjsgur100.github.io)
-- Algorithm Study(https://github.com/depromeet/algorithm-meet), *디프만*
+- Algorithm Study(https://github.com/depromeet/algoStudy), *디프만*
 - 선린인터넷고등학교 게임개발동아리(Republic of Game) *[2009.05 ~ 2011.12]*
     - 동아리 내 자체 게임엔진 사용
     - 교내 디지털 콘텐츠 대회 장려상, 금상 수상
