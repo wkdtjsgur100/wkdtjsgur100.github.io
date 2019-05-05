@@ -17,9 +17,9 @@ comments: false
 
 ## Experience
 
-- LINE Biz+ Internship [2019.04 ~ 2019.06]
-- ebaykorea Internship [2018.07 ~ 2018.09]
-- SW Maestro [2016.07 ~ 2017.07]
+- LINE Internship - Payment Backend [2019.04 ~ 2019.06]
+- ebay korea Internship - Identity Platform [2018.07 ~ 2018.09]
+- [SW Maestro](https://namu.wiki/w/SW%20Maestro) [2016.07 ~ 2017.07]
 
 ## Open Source Contribution
 
@@ -28,13 +28,13 @@ comments: false
     - [PR #350](https://github.com/Valve/fingerprintjs2/pull/350): enumerateDevice 관련 fingerprint component 기능 추가
     - [PR #346](https://github.com/Valve/fingerprintjs2/pull/346): 테스트 코드 내 버그 수정
     - [PR #344](https://github.com/Valve/fingerprintjs2/pull/344): 테스트 코드 내 버그 수정
-    
+
 - 오픈소스 게임엔진 cocos2d-x contribute (13,000 star) [2016.03]
-    - [PR #15279](https://github.com/cocos2d/cocos2d-x/pull/15279): 자체 자료구조 내 getRandomObject 함수의 rand() 함수를 uniform-distribution으로 변경.
-    
+    - [PR #15279](https://github.com/cocos2d/cocos2d-x/pull/15279): cocos2d-x 내부 자료구조 내 getRandomObject 함수의 rand() 함수를 uniform-distribution으로 변경.
+
 - create-react-app contribute(66,400 star)
     - [PR #3468](https://github.com/facebook/create-react-app/pull/3468): 오타 수정
-    
+
 <hr>
 
 ## Skills
