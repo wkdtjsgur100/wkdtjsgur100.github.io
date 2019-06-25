@@ -22,7 +22,7 @@ comments: true
 
 인덱스의 정의를 알았으니 대략적으로 인덱스가 어떻게 생겼는지 한번 보자.  
   
-![dense_index](/images/posts/dense_index.png)  
+![dense_index](/images/posts/dense_Index.png)  
 출처: 데이터베이스 배움터.  
   
 `Employee` 테이블에서 `EMPNO` 컬럼에 `EmpnoIndex`를 걸면 위와 같은 그림이 된다. 인덱스 값이 있고 포인터가 실제 데이터 레코드를 가리키고 있다는 것을 알 수 있다.
