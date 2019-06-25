@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: 데이터베이스 인덱스 기초 개념 정리
+title: 데이터베이스 인덱스 기초 개념 정리(인덱스의 정의, 특징, 사용 지침 등)
 category: database
 tags: [ 'database' ]
 comments: true
