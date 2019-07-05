@@ -149,7 +149,7 @@ pytest --pdb
 pytest -x --pdb   # 첫번째 실패를 PDB에 드롭하고, 테스트 세션을 종료한다.
 pytest --pdb --maxfail=3  # 처음 세 번의 실패를 PDB에 드롭한다.
 ```
-모든 실패 시엔 예외정보는 sys.last_value, sys.last_type, sys.last_traceback에 저장됩니다. interactive로 사용하면 디버그 도구로 사후 디버깅을 할 수 있습니다. 이것은 또한 예외 정보에 수동적으로 접근 할 수 있습니다. 예를 들면,
+모든 실패 시엔 예외정보는 sys.last_value, sys.last_type, sys.last_traceback에 저장됩니다. interactive로 사용하면 디버그 도구로 사후 디버깅을 할 수 있습니다. 이것은 또한 예외 정보에 수동적으로 접근 할 수 있습니다.
 ``` text
 >>> import sys
 >>> sys.last_traceback.tb_lineno
