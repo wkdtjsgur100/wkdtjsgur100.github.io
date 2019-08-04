@@ -37,6 +37,26 @@ comments: false
 
 <hr>
 
+# Other Activities
+- 마이크로소프트웨어 397호 기고(오픈소스와 함께 성장하기) *[2019.07]*
+- 보험관련 사이트 스크래핑 server api 개발(외주) *[2017.11 ~ 2017.12]*
+- 기술 블로그 운영(https://wkdtjsgur100.github.io)
+- Algorithm Study(https://github.com/depromeet/algoStudy), *디프만*
+- 선린인터넷고등학교 게임개발동아리(Republic of Game) *[2009.05 ~ 2011.12]*
+    - 동아리 내 자체 게임엔진 사용
+    - 교내 디지털 콘텐츠 대회 장려상, 금상 수상
+- 35사단 105연대 예비군 훈련체계 웹 개발 *[2015.12~ 2016.01]*
+- 교육관련 스타트업(교집합) 앱, 웹 개발 *[2016.03 ~ 2016.04]*
+- IT 연합 동아리(디프만, 디자이너와 프로그래머가 만났을 때) *[2016.03 ~ 현재]*
+    - missonpriceless 웹 개발, 디프만 *[2016.05 ~ 2016.06]*
+        - https://wkdtjsgur100.github.io/missionpriceless/
+        - https://github.com/wkdtjsgur100/missionpriceless
+        - vis.js, webgl, liquid.js 등 자바스크립트 외부 라이브러리를 이용해 다양하고 시각적인 웹페이지를 보여주는 웹 포트폴리오 사이트
+    - 스피노자 게임 개발, 디프만 *[2016.11~2016.12]*
+        - https://play.google.com/store/apps/details?id=com.game.factory
+
+<hr>
+
 ## Skills
 
 ### Advanced
@@ -180,27 +200,6 @@ KAIST SOC Robot War(http://www.socrobotwar.org/) 대회에서
 - 이진화 영상 threshold automation detecting 구현
 - 색상 인식 알고리즘 구현
 - 알고리즘 설계
-
-<hr>
-
-# Other Activities
-- 보험관련 사이트 스크래핑 server api 개발(외주) *[2017.11 ~ 2017.12]*
-- 기술 블로그 운영(https://wkdtjsgur100.github.io)
-- Algorithm Study(https://github.com/depromeet/algoStudy), *디프만*
-- 선린인터넷고등학교 게임개발동아리(Republic of Game) *[2009.05 ~ 2011.12]*
-    - 동아리 내 자체 게임엔진 사용
-    - 교내 디지털 콘텐츠 대회 장려상, 금상 수상
-- 35사단 105연대 예비군 훈련체계 웹 개발 *[2015.12~ 2016.01]*
-- 교육관련 스타트업(교집합) 앱, 웹 개발 *[2016.03 ~ 2016.04]*
-- IT 연합 동아리(디프만, 디자이너와 프로그래머가 만났을 때) *[2016.03 ~ 현재]*
-    - missonpriceless 웹 개발, 디프만 *[2016.05 ~ 2016.06]*
-        - https://wkdtjsgur100.github.io/missionpriceless/
-        - https://github.com/wkdtjsgur100/missionpriceless
-        - vis.js, webgl, liquid.js 등 자바스크립트 외부 라이브러리를 이용해 다양하고 시각적인 웹페이지를 보여주는 웹 포트폴리오 사이트
-    - 스피노자 게임 개발, 디프만 *[2016.11~2016.12]*
-        - https://play.google.com/store/apps/details?id=com.game.factory
-
-<hr>
 
 # Github
 
