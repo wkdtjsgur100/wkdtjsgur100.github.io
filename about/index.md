@@ -30,7 +30,7 @@ comments: false
     - [PR #346](https://github.com/Valve/fingerprintjs2/pull/346): Fixed bug in test code
     - [PR #344](https://github.com/Valve/fingerprintjs2/pull/344): Fixed bug in test code
 
-- 오픈소스 게임엔진 cocos2d-x contribute (13,000 star) [2016.03]
+- cocos2d-x(Opensource game engine) contribute (13,000 star) [2016.03]
     - [PR #15279](https://github.com/cocos2d/cocos2d-x/pull/15279): Changed rand() of getRandomObject in cocos2d-x data structure to uniform-distribution
 
 - create-react-app contribute(66,400 star)
