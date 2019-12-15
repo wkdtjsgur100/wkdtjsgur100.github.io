@@ -17,6 +17,7 @@ comments: false
 
 ## Experience
 
+- Bepro11 - Backend Developer [2019.08 ~ Present]
 - LINE Internship - Payment Backend [2019.04 ~ 2019.06]
 - ebay korea Internship - Identity Platform [2018.07 ~ 2018.09]
 - [SW Maestro](https://namu.wiki/w/SW%20Maestro) [2016.07 ~ 2017.07]
@@ -24,16 +25,16 @@ comments: false
 ## Open Source Contribution
 
 - fingerprintjs2(7,500 star, Modern & flexible browser fingerprinting library) [2018.07]
-    - [PR #357](https://github.com/Valve/fingerprintjs2/pull/357): fingerprint component를 customize 하기 위한 기능 추가
-    - [PR #350](https://github.com/Valve/fingerprintjs2/pull/350): enumerateDevice 관련 fingerprint component 기능 추가
-    - [PR #346](https://github.com/Valve/fingerprintjs2/pull/346): 테스트 코드 내 버그 수정
-    - [PR #344](https://github.com/Valve/fingerprintjs2/pull/344): 테스트 코드 내 버그 수정
+    - [PR #357](https://github.com/Valve/fingerprintjs2/pull/357): Added feature to customize fingerprint component
+    - [PR #350](https://github.com/Valve/fingerprintjs2/pull/350): Added feature related to enumerateDevice
+    - [PR #346](https://github.com/Valve/fingerprintjs2/pull/346): Fixed bug in test code
+    - [PR #344](https://github.com/Valve/fingerprintjs2/pull/344): Fixed bug in test code
 
 - 오픈소스 게임엔진 cocos2d-x contribute (13,000 star) [2016.03]
-    - [PR #15279](https://github.com/cocos2d/cocos2d-x/pull/15279): cocos2d-x 내부 자료구조 내 getRandomObject 함수의 rand() 함수를 uniform-distribution으로 변경.
+    - [PR #15279](https://github.com/cocos2d/cocos2d-x/pull/15279): Changed rand() of getRandomObject in cocos2d-x data structure to uniform-distribution
 
 - create-react-app contribute(66,400 star)
-    - [PR #3468](https://github.com/facebook/create-react-app/pull/3468): 오타 수정
+    - [PR #3468](https://github.com/facebook/create-react-app/pull/3468): Fixed a typo
 
 <hr>
 
@@ -60,13 +61,13 @@ comments: false
 ## Skills
 
 ### Advanced
-C, C++, cocos2d-x
+django, python, selenium
 
 ### Intermediate
-git, Java, javascript, react.js, python, django, Android, selenium
+git, Java, javascript, react.js, Android, C, C++, cocos2d-x
 
 ### Beginner
-php, HTML, CSS, MySQL, JSP
+PHP, HTML, CSS, MySQL, JSP
 
 <hr>
 ## Cooperation Ability
