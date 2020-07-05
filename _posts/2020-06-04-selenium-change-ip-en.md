@@ -7,11 +7,11 @@ tags: [ 'selenium' ]
 comments: true
 ---
 
-> Some sites are blocking an specific ip address. To avoid this, I wrote about how to crawl some web site with temporary ip in selenium(using [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network))
+> Some sites have a block for specific ip addresses. Here, I am going to detail a process in which we can access these blocked websites through temporary ip from selenium (with the help of Tor).
 
 # environment
 
-For your information, Here is my test environment
+Just for your information, here are the programs I used for my test environment.
 
 - Ubuntu 16.04
 - selenium 3.8.0
@@ -23,7 +23,7 @@ For your information, Here is my test environment
 
 ## FIRST STEP: Install Tor
 
-First, Let's install a Tor  
+First,  Let’s install the Tor browser.  
 
 ``` shell
 sudo apt-get update
@@ -31,7 +31,7 @@ sudo apt-get install tor
 /etc/init.d/tor restart
 ```
 
-`netstat -ntlp`, with this command, you can see listener is created at port 9050 like this:  
+`netstat -ntlp`, With that command, you can see that the listener created a port at 9050 as you see down below.
 
 ``` shell
 $ netstat -ntlp
@@ -57,9 +57,9 @@ print(driver.page_source)
 driver.quit()
 ```
 
-The site named `icanhazip.com`, which is very simple site to print my current ip address. Printed current ip with page_source attribute in WebDriver.  
+icanhazip.com is a simple site that I can use to print my current ip address. This code use a page_source attribute from WebDriver.  
 
-The result is like this. The IP address started with `13.125` was allocated in its case.
+We can see the result below. The IP address in this case starts at `13.125`.  
 
 ``` python
 <html><head><link rel="alternate stylesheet" type="text/css" href="resource://content-accessible/plaintext.css" title="Wrap Long Lines"></head><body><pre>
@@ -67,7 +67,7 @@ The result is like this. The IP address started with `13.125` was allocated in i
 </pre></body></html>
 ```
 
-Now, using 9050 port that we opened before in Tor installing process, Let's forward the ip.
+Now, we are going to forward the IP using the 9050 port that is from the Tor installation process. 
 
 ``` python
 from selenium import webdriver
@@ -89,7 +89,7 @@ print(driver.page_source)
 driver.quit()
 ```
 
-The execution result is like this.
+The result from this execution is as follows:  
 
 ``` shell
 . . .  
@@ -104,7 +104,8 @@ My IP address was changed to `77.247.181.162`!
 
 ## Forward IP address with RemoteWebDriver
 
-With RemoteWebDriver, You can use WebDriver remotely the same way you would use it locally. The primary difference is that a remote WebDriver needs to be configured so that it can run your tests on a separate machine.
+With RemoteWebDriver, You can use WebDriver both remotely and locally in a similar fashion.  
+The primary difference is that a remote WebDriver needs to be configured so that it can run your tests on a separate machine.
 
 ``` python
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
@@ -116,4 +117,4 @@ driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub', DesiredCapabilities.FI
 . . .
 ```
 
-This code is only the difference with WebDriver.
+The difference between the two is the use of a remote WebDriver and its parameters.  
