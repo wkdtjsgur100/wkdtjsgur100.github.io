@@ -96,7 +96,7 @@ pip freeze > requirements.txt
 zappa_drf_mysql 하위에 settings 패키지를 만들고 그 하위에 기존 settings.py 파일에 있는 내용을 복사해서 base.py를 만들고, local.py와 production.py를 만듭니다.
 그리고 production.py에 해당 내용을 반영합니다.
 
-``` python
+``` py
 from base import *
 
 DATABASES = {
@@ -113,7 +113,7 @@ DATABASES = {
 
 local.py에는 로컬 데이터베이스의 정보를 넣습니다.
 
-``` python
+``` py
 from base import *
 
 DATABASES = {
@@ -130,7 +130,7 @@ DATABASES = {
 
 그리고 CORS 호스트 허용을 위해 base.py에 다음을 추가해줍니다.
 
-```python3
+``` py
 ALLOWED_HOSTS = [
     '.execute-api.ap-northeast-2.amazonaws.com',
     'localhost:8000',
@@ -158,7 +158,7 @@ region=ap-northeast-2
 이제 `zappa init` 명령어를 실행시킵니다.(전부 default로 설정) settings 파일 경로를 입력할때 zappa_django_rds.settings.production을 입력해줍니다.
 아래와 같은 zappa_settings.json 파일이 프로젝트 폴더에 생깁니다.
 
-```json
+``` json
 {
     "dev": {
         "aws_region": "ap-northeast-2",
@@ -179,7 +179,7 @@ region=ap-northeast-2
 Aurora와 Lambda는 같은 vpc에 있어야 Lambda 서버에서 Aurora에 접근할 수 있습니다. 그렇지 않으면 NAT를 사용해야 하는데, 비용 문제도 있어서 특별한 경우 아니면 같은 VPC에 있는게 좋습니다.  
 Aurora 콘솔에 들어가서, Aurora 데이터베이스가 속한 VPC의 Subnet Id들을 복사합니다. 그리고 `zappa_settings.json` 파일에 다음과 같은 내용을 추가합니다. SecurityGroupIds는 Lambda가 속하는 security group id를 작성합니다.
 
-```json
+``` json
 {
     "dev": {
         ...
@@ -238,7 +238,7 @@ AWS_SECRET_ACCESS_KEY = <aws secret access key>
 문서에 따르면 STATICFILES_STORAGE와 DEFAULT_FILE_STORAGE에 `storages.backends.s3boto3.S3Boto3Storage`가 들어가야 하지만, `zappa_drf_mysql.storages.ZappaS3Boto3Storage`가 되어 있습니다. [그 이유](https://github.com/jschneier/django-storages/issues/606)는 django-storages에서 AWS security token을 환경변수에서 자동으로 가져오게 되어 있는데, AWS Lambda에서 제공하는 환경변수 정보가 S3 접근에 대한 token과 같은 credential 정보를 제대로 가져오지 못하는 문제라고 합니다.  
 그래서 다음과 같은 클래스를 정의 후 이 클래스를 참조 했습니다.
 
-```python3
+``` py
 # zappa_drf_mysql/storages.py
 
 from storages.backends.s3boto3 import S3Boto3Storage
