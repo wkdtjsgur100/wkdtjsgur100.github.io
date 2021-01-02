@@ -96,7 +96,7 @@ pip freeze > requirements.txt
 zappa_drf_mysql 하위에 settings 패키지를 만들고 그 하위에 기존 settings.py 파일에 있는 내용을 복사해서 base.py를 만들고, local.py와 production.py를 만듭니다.
 그리고 production.py에 해당 내용을 반영합니다.
 
-```python3
+``` python
 from base import *
 
 DATABASES = {
@@ -113,7 +113,7 @@ DATABASES = {
 
 local.py에는 로컬 데이터베이스의 정보를 넣습니다.
 
-```python3
+``` python
 from base import *
 
 DATABASES = {
