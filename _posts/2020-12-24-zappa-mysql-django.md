@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Zappa + Aurora(MySQL) + django rest framework로 Restful 서버리스 아키텍쳐 구축하기
+title: Zappa + Aurora(MySQL) + django rest framework로 Serverless Restful 아키텍쳐 구축하기
 category: serverless
 tags: ['django', 'serverless']
 comments: true
