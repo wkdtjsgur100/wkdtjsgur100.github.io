@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: 왜 Serverless를 사용해야 할까
+title: 왜 Serverless와 Zappa를 사용해야 할까
 category: serverless
 tags: [ 'serverless' ]
 comments: true
