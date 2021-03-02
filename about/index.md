@@ -17,10 +17,32 @@ comments: false
 
 ## Experience
 
-- Bepro11 - Backend Developer [2019.08 ~ Present]
-- LINE Internship - Payment Backend [2019.04 ~ 2019.06]
-- ebay korea Internship - Identity Platform [2018.07 ~ 2018.09]
-- [SW Maestro](https://namu.wiki/w/SW%20Maestro) [2016.07 ~ 2017.07]
+### Bepro11 - Backend Developer [2019.08 ~ Present]
+
+- 인프라 구조 개선
+    - 관련 기술: Lambda, S3, API Gateway, CloudWatch, RDS, Cloudfront
+    - 인프라 구조(AWS)를 멀티 리전으로 개선해 서울 지역 API 응답속도 약 700ms 절감 
+    - 구조 개선으로 NAT비용 연2,000~3,000만원 절감
+    
+- Server API 개발
+    - 기술 스택: Django Rest Framework, unittest, MySQL, Zappa, AWS 
+    - 캐시 적용, 로직 변경을 통해 API 속도 개선 
+    - 선수 분석 데이터 집계 시스템 및 관련 API개발
+    - K리그 데이터포털 데이터 제공 시스템 구축
+
+### LINE Internship - Payment Backend [2019.04 ~ 2019.06]
+
+- MSA 환경 구축
+    - 유입 트래픽 라우팅(Spring cloud gateway)
+    - 트래픽 대역 제한(Redis, Spring cloud gateway)
+    - Resiliency 시스템 개발(Hystrix, Eureka, Ribbon)
+    - 유입 트래픽, 서버 상태 모니터링(Grafana, Prometheus, InfluxDB)
+
+### ebay korea Internship - Identity Platform [2018.07 ~ 2018.09]
+
+Browser Fingerprint 시스템 제작
+- browser fingerprint를 오픈소스를 활용해 ebaykorea에 적용 
+- 오픈소스 해쉬 값 생성 방식을 변경하여 기존 오픈소스 대비 식별 오차 빈도 수 3~4배 감소.
 
 ## Open Source Contribution
 
