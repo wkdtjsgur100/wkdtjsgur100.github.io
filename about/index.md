@@ -22,7 +22,7 @@ comments: false
 - 인프라 구조 개선
     - 관련 기술: Lambda, S3, API Gateway, CloudWatch, RDS, Cloudfront
     - 인프라 구조(AWS)를 멀티 리전으로 개선해 서울 지역 API 응답속도 약 700ms 절감 
-    - 구조 개선으로 NAT비용 연2,000~3,000만원 절감
+    - NAT비용 연 2,000 ~ 3,000만원 절감
     
 - Server API 개발
     - 기술 스택: Django Rest Framework, unittest, MySQL, Zappa, AWS 
