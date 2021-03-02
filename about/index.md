@@ -40,9 +40,9 @@ comments: false
 
 ### ebay korea Internship - Identity Platform [2018.07 ~ 2018.09]
 
-Browser Fingerprint 시스템 제작
-- browser fingerprint를 오픈소스를 활용해 ebaykorea에 적용 
-- 오픈소스 해쉬 값 생성 방식을 변경하여 기존 오픈소스 대비 식별 오차 빈도 수 3~4배 감소.
+- Browser Fingerprint 시스템 제작
+    - browser fingerprint를 오픈소스를 활용해 ebaykorea에 적용 
+    - 오픈소스 해쉬 값 생성 방식을 변경하여 기존 오픈소스 대비 식별 오차 빈도 수 3~4배 감소.
 
 ## Open Source Contribution
 
