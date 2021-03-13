@@ -17,7 +17,12 @@ comments: false
 
 ## Experience
 
-### Bepro11 - Backend Developer [2019.08 ~ Present]
+### 라포랩스 - Backend Developer [2021.02 ~ Present]
+
+- 40, 50대 대상 패션 어플리케이션 [퀸잇(구 우패션)](https://play.google.com/store/apps/details?id=kr.rapportlabs.damoa&hl=en_US&gl=US) 어플리케이션 백엔드 개발
+- 기술 스택: Spring, MySQL, AWS
+
+### Bepro11 - Backend Developer [2019.08 ~ 2021.02]
 
 - 인프라 구조 개선
     - 관련 기술: Lambda, S3, API Gateway, CloudWatch, RDS, Cloudfront
