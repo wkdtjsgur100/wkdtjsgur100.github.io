@@ -21,6 +21,7 @@ comments: false
 
 - 40, 50대 대상 패션 어플리케이션 [퀸잇(구 우패션)](https://play.google.com/store/apps/details?id=kr.rapportlabs.damoa&hl=en_US&gl=US) 어플리케이션 백엔드 개발
 - 기술 스택: Spring, MySQL, AWS
+- 도메인 주도 개발, 테스트 코드 작성
 
 ### Bepro11 - Backend Developer [2019.08 ~ 2021.02]
 
