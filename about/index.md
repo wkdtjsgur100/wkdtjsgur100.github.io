@@ -11,17 +11,17 @@ comments: false
 # Profile
 <hr>
 ## Education
+단국 대학교 - 소프트웨어학과 (2012 ~ 2021, 졸업)
 선린 인터넷 고등학교 - 웹운영과(2009 ~ 2012, 졸업)  
-단국 대학교 - 소프트웨어학과 (2012 ~ 현재, 재학)
 <hr>
 
 ## Experience
 
-### 라포랩스 - Backend Developer [2021.02 ~ Present]
+### 라포랩스 - Backend Developer, Discover Tribe [2021.02 ~ Present]
 
-- 40, 50대 대상 패션 어플리케이션 [퀸잇(구 우패션)](https://play.google.com/store/apps/details?id=kr.rapportlabs.damoa&hl=en_US&gl=US) 어플리케이션 백엔드 개발
-- 기술 스택: Spring, MySQL, AWS
-- 도메인 주도 개발, 테스트 코드 작성
+- 40, 50대 대상 패션 어플리케이션 [퀸잇(구 우패션)](https://play.google.com/store/apps/details?id=kr.rapportlabs.damoa) 어플리케이션 백엔드 개발
+- 기술 스택: Spring Boot, JPA, MySQL, K8S, Elasticsearch, Kafka
+- 사이즈 필터, 베스트, 검색, 추천 시스템 등 개발
 
 ### Bepro11 - Backend Developer [2019.08 ~ 2021.02]
 
@@ -76,7 +76,7 @@ comments: false
     - 교내 디지털 콘텐츠 대회 장려상, 금상 수상
 - 35사단 105연대 예비군 훈련체계 웹 개발 *[2015.12~ 2016.01]*
 - 교육관련 스타트업(교집합) 앱, 웹 개발 *[2016.03 ~ 2016.04]*
-- IT 연합 동아리(디프만, 디자이너와 프로그래머가 만났을 때) *[2016.03 ~ 현재]*
+- IT 연합 동아리(디프만, 디자이너와 프로그래머가 만났을 때)
     - missonpriceless 웹 개발, 디프만 *[2016.05 ~ 2016.06]*
         - https://wkdtjsgur100.github.io/missionpriceless/
         - https://github.com/wkdtjsgur100/missionpriceless
@@ -115,12 +115,6 @@ PHP, HTML, CSS, MySQL, JSP
 ### Git
 - [git flow를 사용한 브랜치 관리](https://wkdtjsgur100.github.io/git-flow/)
 - pull requests를 사용해 기능 완성 시 코드 리뷰
-
-### Others
-
-- 잠재고객 interview skill, 아이디어 회의 방법, 마케팅 전략, UX설계, 상황 대처 능력, 사업화 전략 등 스타트업과 관련된 지식들을 배움. ( 참고 링크: [2017.02 멘토링 일지](https://wkdtjsgur100.github.io/mentoring-log/) )
-- 고등학교 1학년부터 꾸준한 프로젝트 경험을 통해 프로그래머, 디자이너와의 커뮤니케이션이 원활함.
-- 프로젝트를 한번 시작하면 어떻게든 끝을 보려고 하는 성격
 
 <hr>
 <br/>
